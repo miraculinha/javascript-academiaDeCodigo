@@ -1,0 +1,2 @@
+var vesperMartini = [''Gordons', 'vodka', 'Kina Lillet', íce', 'lemon peel' ];
+console.log(vesperMartini);
