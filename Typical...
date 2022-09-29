@@ -1,0 +1,3 @@
+var soTypical = 'treze';
+
+console.log(soTypical, ' is a ', typeof soTypical);
