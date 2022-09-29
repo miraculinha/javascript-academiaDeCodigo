@@ -1,0 +1,14 @@
+// There's an arithmetic operator, we've talked about ages ago, that will probably be very helpful now *wink wink*
+
+var isEven = function(number) {
+    return number % 2 === 0;
+};
+
+var result = isEven(4);
+
+if (result === 2) {
+    console.log('true');
+}
+else {
+    console.log('false');
+}
