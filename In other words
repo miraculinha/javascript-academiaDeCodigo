@@ -1,0 +1,3 @@
+var quote = '          OH capTAIN, mY cApTaIn.         ';
+var lowerAndTrimmed = quote.toLowerCase().trim();
+console.log(lowerAndTrimmed);
