@@ -1,0 +1,13 @@
+var bigWord = 'supercalifragilisticexpialidocious';
+
+var newWord1 = bigWord.slice(27);
+var newWord2 = bigWord.slice(24, 27);
+var newWord3 = bigWord.slice(20, 24);
+var newWord4 = bigWord.slice(15, 20);
+var newWord5 = bigWord.slice(9, 15);
+var newWord6 = bigWord.slice(5, 9);
+var newWord7 = bigWord.charAt(4) + bigWord.slice(1, 2) + bigWord.charAt(2) + bigWord.slice(32);
+
+var newBigWord = (newWord1+'-'+newWord2+'-'+newWord3+'-'+newWord4+'-'+newWord5+'-'+newWord6+'-'+newWord7);
+
+console.log(newBigWord);
