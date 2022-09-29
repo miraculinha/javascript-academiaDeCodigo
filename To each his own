@@ -1,0 +1,9 @@
+var counter = 0;
+
+var incrementCounterBy = function (amount) {
+    counter += amount;
+};
+
+var resetCounter = function() {
+    counter = 0;
+};
