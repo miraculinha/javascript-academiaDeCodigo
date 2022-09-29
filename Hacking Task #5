@@ -1,0 +1,29 @@
+    var evenArray = [];
+    
+    for (var i = 0; i < pass.length; i++) {
+        for (var j = 0; j < pass[i].length; j++) {
+            if (pass[i][j] % 2 !== 0) {
+                break;
+            } 
+            else {
+                buffer.push(pass[i][j]);
+            }
+        }
+        if (pass[i].length === buffer.length) {
+            evenArrays = buffer;
+        }
+        buffer = [];
+    }
+    return evenArrays;
+};
+
+var loggedPasscodes = [
+    [1, 4, 4, 1],
+    [1, 2, 3, 1],
+    [2, 6, 0, 8],
+    [5, 5, 5, 5],
+    [4, 3, 4, 3]
+];
+
+console.log(getValidPassword (loggedPasscodes));
+
