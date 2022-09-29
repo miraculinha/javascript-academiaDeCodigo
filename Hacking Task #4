@@ -1,0 +1,10 @@
+var extractPassword = function(array) {
+    var novo = [];
+    for (var i = 0; i < array.length; i++) {
+        var c = array[i];
+        if (('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z') || ('0' <= c && c <= '9')) {
+            novo.push(c);
+        }
+    }
+    return novo.join('');
+};
