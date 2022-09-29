@@ -1,0 +1,3 @@
+var myAge = 35;
+
+console.log(myAge);
