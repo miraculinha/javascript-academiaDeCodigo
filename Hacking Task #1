@@ -1,0 +1,28 @@
+var weeklyPass = 'darlene';
+var weekDay = 'sunday';
+var currentPass;
+
+switch (weekDay) {
+    case 'sunday':
+        (currentPass = weeklyPass + 'snd');
+        break;
+    case 'monday':
+        (currentPass = weeklyPass + 'mnd');
+        break;
+    case 'tuesday':
+        (currentPass = weeklyPass + 'tsd');
+        break;
+    case 'wednesday':
+        (currentPass = weeklyPass + 'wdnsd');
+        break;
+    case 'thursday':
+        (currentPass = weeklyPass + 'thrsd');
+        break;
+    case 'friday':
+        (currentPass = weeklyPass + 'frd');
+        break;
+    case 'saturday':
+        (currentPass = weeklyPass + 'strd');
+        break;
+}
+console.log(currentPass);
