@@ -1,0 +1,2 @@
+console.log(20 / 7); //returns 6;
+console.log(20 % 7);
