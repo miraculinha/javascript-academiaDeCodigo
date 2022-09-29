@@ -1,0 +1,11 @@
+var wizard = {
+ makeSpell: function () {
+     console.log('xpeliarmus');
+ },
+
+    playQuidditch: function () {
+        console.log('quidditch');
+    }
+};
+wizard.makeSpell();
+wizard.playQuidditch();
