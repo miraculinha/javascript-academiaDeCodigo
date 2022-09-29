@@ -1,0 +1,12 @@
+var you = true;
+var batman = true;
+var superman = true;
+var kryptonite = false;
+
+var winRound1 = you && batman;
+var winRound2 = batman || superman; 
+var winRound3 = superman && kryptonite;
+
+console.log(winRound1);
+console.log(winRound2);
+console.log(winRound3);
