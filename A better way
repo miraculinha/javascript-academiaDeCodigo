@@ -1,0 +1,5 @@
+var jediCouncil = 'Yoda,Mace Windu,Plo Koon,Obi-Wan Kenobi,Anakin Skywalker';
+
+var jediList = jediCouncil.split(',');
+
+console.log(jediList[2]);
