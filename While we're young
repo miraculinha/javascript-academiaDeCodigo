@@ -1,0 +1,9 @@
+var target = Math.floor(Math.random() * 11);
+var guess = Math.floor(Math.random() * 11);
+
+while (guess !== target) {
+    guess = Math.floor(Math.random() * 11);
+    console.log(guess);
+}
+
+console.log(target);
