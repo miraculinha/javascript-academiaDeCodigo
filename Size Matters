@@ -1,0 +1,2 @@
+var movieList = ['Marley', 'Marley1', 'Marley2'];
+console.log(movieList.length);
