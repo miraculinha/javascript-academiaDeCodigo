@@ -1,0 +1,4 @@
+console.log(40 + 2);
+console.log(44 - 2);
+console.log(4 * 10 + 2);
+console.log(5 * 7 + 7);
