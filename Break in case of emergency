@@ -1,0 +1,15 @@
+var target = Math.ceil(Math.random() * 10);
+var guess = Math.ceil(Math.random() * 10);
+var tries = 5;
+
+console.log(target);
+
+while(tries > 0) {
+    guess = Math.ceil(Math.random() * 10);
+    console.log(guess);
+    --tries;
+    if(guess === target) {
+        console.log('great');
+        break;
+    }
+}
