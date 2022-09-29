@@ -1,0 +1,4 @@
+var counter = 10;
+console.log(counter);
+var finalValue = counter--; counter--; counter--;
+console.log(counter);
