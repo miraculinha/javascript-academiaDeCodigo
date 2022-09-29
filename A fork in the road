@@ -1,0 +1,8 @@
+var weather = 'sun';
+var isHappy = true;
+
+if (weather === 'rainy'&& isHappy === true) {
+    console.log('I am singing in the rain, just singing in the rain!');
+} else {
+    console.log('I don't wat to sing.');
+}
