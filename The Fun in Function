@@ -1,0 +1,14 @@
+var add = function (operand1, operand2) {
+    return operand1 + operand2;
+};
+
+var calculate = function (operand1, operand2, operation) {
+    var result = operation(operand1, operand2);
+    console.log(result);
+};
+
+var multiply = function (operand1, operand2) {
+    return operand1 * operand2;
+};
+calculate(1,2,add);
+calculate(1,2,multiply);
